@@ -1,5 +1,5 @@
 <h1 align="center"> Namaste! I'm <a href="https://in.linkedin.com/in/rohankokkula"><b>Rohan Kokkula</b></a>.
-<h3 align="center"> Data Science Aspirant |<a href="https://public.tableau.com/profile/rohan.kokkula#!/"><b>Tableau Analyst</b></a> | Python Programmer </h3></h1>
+<h3 align="center"> Data Science Aspirant |<a href="https://public.tableau.com/profile/rohan.kokkula#!/"><b> Tableau Analyst</b></a> | Python Programmer </h3></h1>
 <h3>Final Year B.E undergrad in Information Technology from <a href="https://www.vit.edu.in/"> <b>Vidyalankar Institute of Technology</b></a></em>, Mumbai.<br><br>
 Give me raw data and I'll return you insights, problems to be rectifed and enhancements to achieve target. </h3>
 <h4></h4>
