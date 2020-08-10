@@ -46,10 +46,13 @@ I am always on the lookout for new projects to work on and new people to collabo
   <img align="left" alt="Rohan's youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />
 </a>
 <a href="https://twitter.com/rohankokkula3" target="_blank">
-  <img align="left" alt="Rohan Kokkula | Linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+  <img align="left" alt="Rohan Kokkula | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 </a>
 <a href="https://www.youtube.com/c/rohanalytics/" target="_blank">
   <img align="left" alt="Rohan's youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/kaggle.svg" />
+</a>
+<a href="https://public.tableau.com/profile/rohan.kokkula#!/" target="_blank">
+  <img align="left" alt="Rohan Kokkula | Tableay" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/tableau.svg" />
 </a>
 <br>
 
