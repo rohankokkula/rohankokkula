@@ -1,6 +1,6 @@
 <h1 align="center"> Namaste! I'm <a href="https://in.linkedin.com/in/rohankokkula"><b>Rohan Kokkula</b></a>.
-<h3 align="center"> Data Science Aspirant |<a href="https://public.tableau.com/profile/rohan.kokkula#!/"><b> Tableau Analyst</b></a> | Python Programmer </h3></h1>
-<h3> IT Engineer from <a href="https://www.vit.edu.in/"> <b>Vidyalankar Institute of Technology</b></a></em>, Mumbai.<br><br>
+<h3 align="center">IT Engineer | Data Science Aspirant |<a href="https://public.tableau.com/profile/rohan.kokkula#!/"><b> Tableau Analyst</b></a> | Python Programmer </h3></h1>
+<h3> <a href="https://www.vit.edu.in/"> <b>Vidyalankar Institute of Technology</b></a></em>, Mumbai.<br><br>
 Give me raw data and I'll return you insights, problems to be rectifed and enhancements to achieve target. </h3>
 <h4></h4>
 I am always on the lookout for new projects to work on and new people to collaborate with. Do check out my repositories and feel free to reach out if you would like to work on any of my existing projects or if you think that I would be a good fit in your project..
