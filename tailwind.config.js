@@ -49,7 +49,10 @@ module.exports = {
                 fill: '#FEBBAD',
                 muddyWhite: '#f5f6f8'
             }
+        },
+        variants: {
+            scrollbar: ['rounded']
         }
     },
-    plugins: []
+    plugins: [require('tailwind-scrollbar')]
 };

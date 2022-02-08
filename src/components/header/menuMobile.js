@@ -9,7 +9,9 @@ const menuMobile = () => {
     const [openIndex, setOpenIndex] = useState(false);
 
     return (
-        <div className="bg-seashell px-4 pb-4 flex flex-col w-full border-b border-b-zinc-300">
+        <div
+            className="bg-seashell px-4 pb-4 flex flex-col w-full border-b overflow-y-scroll border-b-zinc-300"
+            style={{ height: 'calc(100vh - 80px)' }}>
             <>
                 <button
                     type="button"
@@ -21,7 +23,7 @@ const menuMobile = () => {
                         <Arrow down={true} />
                     </span>
                 </button>
-                {/* {openIndex === 3 && <Company />} */}
+                {openIndex === 0 && <Company />}
             </>
             <>
                 <button
@@ -34,7 +36,7 @@ const menuMobile = () => {
                         <Arrow down={true} />
                     </span>
                 </button>
-                {/* {openIndex === 3 && <Company />} */}
+                {openIndex === 1 && <Company />}
             </>
             <>
                 <button
@@ -47,7 +49,7 @@ const menuMobile = () => {
                         <Arrow down={true} />
                     </span>
                 </button>
-                {/* {openIndex === 3 && <Company />} */}
+                {openIndex === 2 && <Company />}
             </>
             <>
                 <button
@@ -60,7 +62,7 @@ const menuMobile = () => {
                         <Arrow down={true} />
                     </span>
                 </button>
-                {/* {openIndex === 3 && <Company />} */}
+                {openIndex === 3 && <Company />}
             </>
             <>
                 <ButtonLink
@@ -68,7 +70,7 @@ const menuMobile = () => {
                     label="Download Open-Source"
                     hollow={false}
                     transparent={false}
-                    className="font-bold text-white z-10 p-3 justify-between"
+                    className="font-bold text-white z-10 p-3 justify-between mt-3"
                     icon="arrow"
                 />
             </>

@@ -14,11 +14,11 @@ const mainNavigation = () => {
             <div className="absolute text-shark top-20 inset-x-0 transition transform origin-top-right lg:hidden">
                 {isOpen ? <MenuMobile /> : ''}
             </div>
-            <div className="-mr-2 -my-2 lg:hidden">
+            <div className="lg:hidden">
                 <button
                     type="button"
                     onClick={() => setIsOpen(!isOpen)}
-                    className="inline-flex items-center justify-center p-2 space-x-4 text-base leading-6  transition ease-in-out duration-150">
+                    className="inline-flex items-center justify-center py-2 space-x-4 text-base leading-6  transition ease-in-out duration-150">
                     {isOpen ? <MenuClose /> : <Menu />}
                 </button>
             </div>
