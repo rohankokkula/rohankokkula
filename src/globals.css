@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .grid-cols-layout-3 {
+        grid-template-columns: 232px 1fr 232px;
+    }
+    .grid-cols-layout-2-3 {
+        grid-template-columns: 232px 1fr;
+    }
+
+    .grid-cols-layout-2 {
+        grid-template-columns: 1fr 232px;
+    }
+}
+
 /* Header Classes */
 .menu-dropdown {
     position: relative;

@@ -11,7 +11,7 @@ const Slug = ({ frontMatter, slug, mdxSource }) => {
     return (
         <Layout>
             <SEO title={frontMatter.title} />
-            <section className="mx-auto max-w-screen-2xl px-4">
+            <section className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12">
                 <MDXRemote {...mdxSource} components={MdxComponents} />
             </section>
         </Layout>

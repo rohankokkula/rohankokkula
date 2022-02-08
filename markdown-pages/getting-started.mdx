@@ -5,46 +5,261 @@ description: An introduction blog post with some code blocks, the original
 ---
 
 <ThreeCols>
-    <Sidebar>
-        <ul className="list-disc pl-4 font-medium">
-            <li className="mb-2">Importing starterbot</li>
-            <li className="mb-2">Adding QnA</li>
-            <li className="mb-2">Deploying Botpress</li>
-            <li className="mb-2">Integrating Channels</li>
-        </ul>
-    </Sidebar>
+    <Sidebar
+        classes="relative md:top-6 md:sticky"
+        sections={[
+            {
+                id: 'importing-starterbot',
+                label: 'Importing starterbot'
+            },
+            {
+                id: 'adding-qna',
+                label: 'Adding Q&A'
+            },
+            {
+                id: 'deploying-botpress',
+                label: 'Deploying Botpress'
+            },
+            {
+                id: 'integrating-channels',
+                label: 'Integrating Channels'
+            }
+        ]}></Sidebar>
     <Main>
-        <h1 className="font-bold text-3xl mb-4"> Getting Started</h1>
-        <h3 className="font-bold text-xl mb-3"> Importing starterbot</h3>
-        <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque lacus,
-            vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum placerat.
-        </p>
-        <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque lacus,
-            vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum placerat.
-        </p>
-        <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque lacus,
-            vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum placerat.
-        </p>
-        <Img src="/public/video-placeholder.png" alt="Image alt text" height={500} />
-        <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque lacus,
-            vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum placerat.
-        </p>
-        <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque lacus,
-            vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum placerat.
-        </p>
+        <h1 className="font-bold text-3xl mb-6"> Getting Started</h1>
+        <div id="importing-starterbot">
+            <h3 className="font-bold text-2xl mb-3">Importing starterbot</h3>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <Img
+                src="https://botpress.com/_next/image?url=https%3A%2F%2Fcontent.botpress.com%2Fuploads%2Fgetting-started-with-botpress.webp&w=3840&q=60"
+                alt="Image alt text"
+                height={428}
+                caption="Optional caption under image. 👍"
+            />
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+        </div>
+        <div id="adding-qna">
+            <h3 className="font-bold text-2xl mb-3">Adding Q&A</h3>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <Iframe src="https://www.youtube.com/embed/_lOcCH_rNIU" />
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+        </div>
+        <div id="deploying-botpress">
+            <h3 className="font-bold text-2xl mb-3">Deploying Botpress</h3>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <Img
+                src="https://botpress.com/_next/image?url=https%3A%2F%2Fcontent.botpress.com%2Fuploads%2Fthumbnail_blog.jpg&w=3840&q=60"
+                alt="Image alt text"
+                height={428}
+                caption="Optional caption under image. 👍"
+            />
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+        </div>
+        <div id="integrating-channels">
+            <h3 className="font-bold text-2xl mb-3">Integrating Channels</h3>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <Img
+                src="https://botpress.com/_next/image?url=https%3A%2F%2Fcontent.botpress.com%2Fuploads%2Fintegrating.png&w=3840&q=60"
+                alt="Image alt text"
+                height={428}
+            />
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+            <p className="mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor neque
+                lacus, vitae sagittis tortor tincidunt sed. Vestibulum suscipit ligula sed bibendum
+                placerat.
+            </p>
+        </div>
     </Main>
-    <RelatedContent>
+    <RelatedContent classes="hidden lg:block">
         <Iframe src="https://www.youtube.com/embed/_lOcCH_rNIU" />
         <Iframe src="https://www.youtube.com/embed/2OqJoCnBoaE" />
-        <hr className="mb-3" />
-        <p className="font-bold text-left mb-2">Resources</p>
-        <p className="text-center">
-            Download <span className="text-ocean">startbot</span>
-        </p>
     </RelatedContent>
 </ThreeCols>

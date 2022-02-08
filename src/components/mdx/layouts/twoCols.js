@@ -1,8 +1,4 @@
 const TwoCols = ({ children }) => {
-    return (
-        <div className="grid gap-6" style={{ gridTemplateColumns: '1fr 250px' }}>
-            {children}
-        </div>
-    );
+    return <div className="grid gap-8 md:grid-cols-layout-2">{children}</div>;
 };
 export default TwoCols;

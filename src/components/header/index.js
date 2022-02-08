@@ -4,7 +4,9 @@ import ButtonLink from '../buttons/buttonLink';
 
 const Header = ({ isDark }) => {
     return (
-        <header className="bg-white sticky top-0" style={{ zIndex: 99999 }}>
+        <header
+            className="bg-white sticky-no top-0 border-b border-gray-separator"
+            style={{ zIndex: 99999 }}>
             <div className="mx-auto max-w-screen-xl">
                 <div className="flex justify-between items-center py-6 lg:justify-start lg:space-x-10 h-20 lg:h-auto px-4">
                     <div>

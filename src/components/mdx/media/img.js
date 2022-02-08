@@ -1,14 +1,16 @@
 import Image from 'next/image';
 
-import Dummy from '../../../../public/video-placeholder.png';
-
-const Img = ({ src, alt, height, width }) => {
-    // Change src to be dynamic
+const Img = ({ src, alt, height, width, caption }) => {
     return (
-        <div className="mb-4 mt-3">
-            <div style={{ height: height, width: width, position: 'relative' }}>
-                <Image src={Dummy} alt={alt ?? 'Provide alt'} layout="fill" />
+        <div className="mb-6 mt-5 p-8 bg-gray-separator bg-opacity-40 rounded-md">
+            <div
+                style={{ height: height, width: width, position: 'relative' }}
+                className="shadow-lg">
+                <Image src={src} alt={alt ?? 'Provide alt'} layout="fill" objectFit="contain" />
             </div>
+            {caption && (
+                <span className="text-center block mt-4 text-xs text-lightGray">{caption}</span>
+            )}
         </div>
     );
 };

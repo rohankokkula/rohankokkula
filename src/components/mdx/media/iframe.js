@@ -4,8 +4,7 @@ const Iframe = ({ src, title }) => {
             style={{
                 paddingBottom: '55%'
             }}
-            className="w-full h-0 relative mb-4">
-            <div className="absolute w-full h-full z-50 bg-transparent"></div>
+            className="w-full h-0 relative mb-5 mt-6">
             <iframe
                 title={title ?? 'Botpress'}
                 src={src}
@@ -13,7 +12,7 @@ const Iframe = ({ src, title }) => {
                 height="100%"
                 style={{ position: 'absolute' }}
                 frameBorder="0"
-                className="giphy-embed"
+                className="rounded-md"
                 allowFullScreen></iframe>
         </div>
     );

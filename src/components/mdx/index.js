@@ -5,8 +5,8 @@ const ThreeCols = dynamic(() => import('./layouts/threeCols.js'));
 const TwoCols = dynamic(() => import('./layouts/twoCols.js'));
 // Compnents
 const Main = dynamic(() => import('./main.js'));
-const Sidebar = dynamic(() => import('./sidebar.js'));
-const RelatedContent = dynamic(() => import('./relatedContent.js'));
+const Sidebar = dynamic(() => import('./elements/sidebar'));
+const RelatedContent = dynamic(() => import('./elements/relatedContent.js'));
 // Media
 const Iframe = dynamic(() => import('./media/iframe.js'));
 const Img = dynamic(() => import('./media/img.js'));
