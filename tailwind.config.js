@@ -16,6 +16,12 @@ module.exports = {
             sans: ['Poppins', 'sans-serif']
         },
         extend: {
+            maxWidth: {
+                1320: '1320px'
+            },
+            screens: {
+                'bp-menu': '1168px'
+            },
             fontWeight: {
                 light: 300,
                 normal: 200,
@@ -54,5 +60,5 @@ module.exports = {
             scrollbar: ['rounded']
         }
     },
-    plugins: [require('tailwind-scrollbar')]
+    plugins: [require('tailwind-scrollbar'), require('@tailwindcss/custom-forms')]
 };

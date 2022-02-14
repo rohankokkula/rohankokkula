@@ -11,7 +11,7 @@ const mainNavigation = () => {
     return (
         <>
             <MenuDesktop />
-            <div className="absolute text-shark top-20 inset-x-0 transition transform origin-top-right lg:hidden">
+            <div className="absolute text-shark top-20 inset-x-0 transition transform origin-top-right lg:hidden z-10">
                 {isOpen ? <MenuMobile /> : ''}
             </div>
             <div className="lg:hidden">

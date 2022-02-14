@@ -1,71 +1,61 @@
+import dynamic from 'next/dynamic';
+// Components
 import Layout from '../src/components/layout';
 import SEO from '../src/components/seo';
-import Search from '../src/components/search';
-import Grid from '../src/components/grid';
+import Hero from '../src/components/hero';
+const DynamicWrapper = dynamic(() => import('../src/components/dynamicWrapper'));
+const Grid = dynamic(() => import('../src/components/grid'));
+const FeaturedPreload = dynamic(() => import('../src/components/featured/featuredPreload.js'), {
+    suspense: true
+});
+const Featured = dynamic(() => import('../src/components/featured/index'), {
+    ssr: false,
+    suspense: true
+});
 
 const Homepage = () => {
-    let dummyDataOne = [
+    let data = [
         {
-            title: 'Getting Started',
-            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack.',
-            slug: '/getting-started'
+            category: 'Botpress guide',
+            title: 'Must have skills',
+            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack'
         },
         {
-            title: 'Videos, webinars...',
-            excerpt: 'Missed a webinar? We got your back! Get access to our webinars & videos.',
-            slug: '/video-tutorial'
+            category: 'Chatbot skills',
+            title: 'Must have skills',
+            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack'
         },
         {
-            title: 'Bot Templates',
-            excerpt: 'ready-to-import chatbot templates as per use-case for you to save time!'
+            category: 'NLU',
+            title: 'Must have skills',
+            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack'
         }
     ];
-
-    let dummyDataTwo = [
-        {
-            title: 'Must-have skills',
-            excerpt:
-                'Understand Conversational AI with Botpress in depth with well curated 160 skills'
-        },
-        {
-            title: 'NLP vs NLU',
-            excerpt: 'How it works, and the different applications it can have for businesses.'
-        },
-        {
-            title: 'Lorem ipsum',
-            excerpt: 'ready-to-import chatbot templates as per use-case for you to save time!'
-        }
-    ];
-
     return (
-        <Layout>
+        <Layout overflowX="overflow-x-hidden">
             <SEO title="Learning Center" />
-            <section className="px-4 mx-auto pt-12 pb-10 sm:pb-16 sm:px-6 lg:pt-16 lg:px-8">
-                <h1 className="font-heading text-3xl sm:text-5xl text-black text-center">
-                    The Ultimate Guide to master Botpress
-                </h1>
-                <Search />
-            </section>
-            <section className="mx-auto max-w-screen-xl px-4 mb-10">
-                <div className="mb-6">
-                    <h2 className="text-2xl font-bold text-ocean mb-3">
-                        Understand Botpress Better
-                    </h2>
-                    <Grid
-                        data={dummyDataOne}
-                        gridClasses="grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-4"
-                        arrow="orange"
-                    />
+            <Hero />
+            <DynamicWrapper skeleton={<FeaturedPreload />}>
+                <section className="relative px-4 pt-20 overflow-hidden">
+                    <Featured />
+                </section>
+            </DynamicWrapper>
+            <section className="mx-auto max-w-1320 px-4 py-12 sm:py-16">
+                <div className="max-w-max mb-6 sm:mb-10 bp-menu:mb-16">
+                    <p className="font-heading text-3xl sm:text-4xl text-shark">
+                        <span className="border-b-4 leading-[48px]">
+                            All Botpress and Chatbot Guides
+                        </span>
+                        <sup className="bg-ocean ml-2 text-white  pl-1.5 pt-2.5 h-5 w-5 text-[11px] rounded-[4px] align-top mt-3 sm:mt-2 inline-block">
+                            5
+                        </sup>
+                    </p>
                 </div>
-                <div>
-                    <h2 className="text-2xl font-bold text-ocean mb-3">
-                        Guides for becoming a great Chatbot Developer
-                    </h2>
-                    <Grid
-                        data={dummyDataTwo}
-                        gridClasses="grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-4"
-                    />
-                </div>
+                <Grid
+                    data={data}
+                    gridClasses="grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-4"
+                    arrow="true"
+                />
             </section>
         </Layout>
     );

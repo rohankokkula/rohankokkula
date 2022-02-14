@@ -1,0 +1,86 @@
+---
+id: 4
+title: Chatbot templates
+author: John Doe
+description: Chatbot templates page examples
+slug: '/chatbot-templates'
+---
+
+<FlexCols>
+    <Sidebar
+        customTitle="Chatbot templates"
+        classes="relative md:top-6 md:sticky w-full md:max-w-[280px] flex flex-col justify-between"
+        sections={[
+            {
+                id: 'lead-generation',
+                label: 'Lead Generation'
+            },
+            {
+                id: 'university-bot',
+                label: 'University Bot'
+            },
+            {
+                id: 'ecommerce-bot',
+                label: 'Ecommerce Bot'
+            },
+            {
+                id: 'real-estate-bot',
+                label: 'Real Estate Bot'
+            },
+            {
+                id: 'call-scheduling-bot',
+                label: 'Call Scheduling Bot'
+            },
+            {
+                id: 'recruitment-bot',
+                label: 'Recruitment Bot'
+            },
+            {
+                id: 'halloween-bot',
+                label: 'Hallowen Bot'
+            }
+        ]}
+    />
+    <Main classes="w-full">
+        <Sections>
+            <div id="lead-generation">
+                <Img src="/chatbot-templates-image.png" alt="Image alt text" height={494} />
+            </div>
+            <div id="university-bot">
+                <Img src="/video-placeholder.png" alt="Image alt text" height={494} />
+            </div>
+            <div id="ecommerce-bot">
+                <Img src="/hero-image-graphic.png" alt="Image alt text" height={494} />
+            </div>
+        </Sections>
+    </Main>
+    <Details
+        classes="w-full gap-y-12 md:max-w-[405px] grid"
+        data={[
+            {
+                id: 'lead-generation',
+                title: 'Lead Generation Template',
+                text: 'Support customers around the clock and automate lead generation.',
+                description:
+                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                tasks: [
+                    'Generate and segment leads',
+                    'Collect contact information',
+                    'Gather questions from users'
+                ]
+            },
+            {
+                id: 'university-bot',
+                title: 'University Bot',
+                text: 'Support customers around the clock and use university bot.',
+                description:
+                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                tasks: [
+                    'Install Botpress locally',
+                    'Follow tutorial on this page',
+                    'Completed, you are gtg!'
+                ]
+            }
+        ]}
+    />
+</FlexCols>

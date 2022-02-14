@@ -4,22 +4,23 @@ import ButtonLink from '../buttons/buttonLink';
 
 const Header = ({ isDark }) => {
     return (
-        <header
-            className="bg-white sticky-no top-0 border-b border-gray-separator"
-            style={{ zIndex: 99999 }}>
-            <div className="mx-auto max-w-screen-xl">
-                <div className="flex justify-between items-center py-6 lg:justify-start lg:space-x-10 h-20 lg:h-auto px-4">
+        <header className={`bg-shark top-0`} style={{ zIndex: 99999 }}>
+            <div className="mx-auto max-w-1320 border-b border-lightGray">
+                <div className="flex justify-between items-center py-6 lg:space-x-10 h-20 lg:h-auto px-4">
                     <div>
-                        <div className="inline-flex">
+                        <div>
                             <Link href="/">
-                                <a>
-                                    <img height={32} width={143} alt="logo" src="/logo.svg" />
+                                <a className="flex  text-seashell flex-col bp-menu:items-end  bp-menu:flex-row">
+                                    <img height={32} width={143} alt="logo" src="/logo-dark.svg" />
+                                    <span className="font-semibold text-sm mt-1 bp-menu:mt-0 bp-menu:text-base bp-menu:ml-3 bp-menu:block">
+                                        Learning Center
+                                    </span>
                                 </a>
                             </Link>
                         </div>
                     </div>
                     <MainNavigation />
-                    <div className="hidden lg:flex items-center justify-end space-x-3 ">
+                    <div className="hidden lg:flex">
                         <ButtonLink
                             link="https://botpress.com/free-trial"
                             label="Download Open-Source"

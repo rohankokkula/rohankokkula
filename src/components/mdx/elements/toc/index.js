@@ -37,7 +37,7 @@ const Toc = ({ sections }) => {
         <div className="pl-1">
             {sections?.map(({ label, id, subsections }) => {
                 return (
-                    <div>
+                    <div key={id}>
                         <Link
                             to={id}
                             spy={true}

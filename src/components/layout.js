@@ -1,10 +1,10 @@
 import Header from '../components/header';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, overflowX }) => {
     return (
         <>
             <Header />
-            <main>{children}</main>
+            <main className={`${overflowX} main-content `}>{children}</main>
         </>
     );
 };

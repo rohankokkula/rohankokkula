@@ -6,13 +6,13 @@ import useAlgoliaSearch from '../../hooks/useAlgoliaSearch';
 import Input from './input';
 const SearchResults = dynamic(() => import('./searchResults.js'), { ssr: false });
 
-const Search = () => {
+const Search = ({ classes, type }) => {
     const [query, setQuery] = useState('');
     const hits = useAlgoliaSearch(query);
 
     return (
-        <div className="max-w-screen-md mx-auto mt-6 sm:mt-8 relative">
-            <Input query={query} setQuery={setQuery} />
+        <div className={`relative  ${classes}`}>
+            <Input query={query} setQuery={setQuery} type={type} />
             {hits.hits.length ? <SearchResults hits={hits.hits} /> : null}
         </div>
     );

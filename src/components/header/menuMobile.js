@@ -6,50 +6,48 @@ import Company from './contentCompany';
 import ButtonLink from '../buttons/buttonLink';
 
 const menuMobile = () => {
-    const [openIndex, setOpenIndex] = useState(false);
+    const [openIndex, setOpenIndex] = useState(true);
 
     return (
         <div
             className="bg-seashell px-4 pb-4 flex flex-col w-full border-b overflow-y-scroll border-b-zinc-300"
             style={{ height: 'calc(100vh - 80px)' }}>
             <>
-                <button
-                    type="button"
-                    onClick={() => (openIndex === 0 ? setOpenIndex(false) : setOpenIndex(0))}
-                    className={`my-4 rounded shadow-md lg:text-white p-4 inline-flex items-center flex-nowrap text-base leading-6 font-bold hover:text-ocean focus:outline-none focus:text-ocean transition ease-in-out duration-150 
+                <Link href="/getting-started">
+                    <button
+                        type="button"
+                        // onClick={() => (openIndex === 0 ? setOpenIndex(false) : setOpenIndex(0))}
+                        className={`my-4 rounded shadow-md lg:text-white p-4 inline-flex items-center flex-nowrap text-base leading-6 font-bold hover:text-ocean focus:outline-none focus:text-ocean transition ease-in-out duration-150 
             }`}>
-                    <span>Getting Started</span>
-                    <span className="ml-2">
-                        <Arrow down={true} />
-                    </span>
-                </button>
-                {openIndex === 0 && <Company />}
+                        <span>Getting Started</span>
+                    </button>
+                </Link>
+                {/* {openIndex === 0 && <Company />} */}
             </>
             <>
-                <button
-                    type="button"
-                    onClick={() => (openIndex === 1 ? setOpenIndex(false) : setOpenIndex(1))}
-                    className={`my-4 rounded shadow-md p-4 lg:text-white inline-flex items-center flex-nowrap text-base leading-6 font-bold hover:text-ocean focus:outline-none focus:text-ocean transition ease-in-out duration-150 
+                <Link href="/lessons">
+                    <button
+                        type="button"
+                        onClick={() => (openIndex === 1 ? setOpenIndex(false) : setOpenIndex(1))}
+                        className={`my-4 rounded shadow-md p-4 lg:text-white inline-flex items-center flex-nowrap text-base leading-6 font-bold hover:text-ocean focus:outline-none focus:text-ocean transition ease-in-out duration-150 
             }`}>
-                    <span>Videos</span>
-                    <span className="ml-2">
-                        <Arrow down={true} />
-                    </span>
-                </button>
-                {openIndex === 1 && <Company />}
+                        <span>Lessons</span>
+                    </button>
+                </Link>
+                {/* {openIndex === 1 && <Company />} */}
             </>
+
             <>
-                <button
-                    type="button"
-                    onClick={() => (openIndex === 2 ? setOpenIndex(false) : setOpenIndex(2))}
-                    className={`my-4 rounded shadow-md p-4 lg:text-white inline-flex items-center flex-nowrap text-base leading-6 font-bold hover:text-ocean focus:outline-none focus:text-ocean transition ease-in-out duration-150 
+                <Link href="/chatbot-templates">
+                    <button
+                        type="button"
+                        onClick={() => (openIndex === 2 ? setOpenIndex(false) : setOpenIndex(2))}
+                        className={`my-4 rounded shadow-md p-4 lg:text-white inline-flex items-center flex-nowrap text-base leading-6 font-bold hover:text-ocean focus:outline-none focus:text-ocean transition ease-in-out duration-150 
             }`}>
-                    <span>Lorem</span>
-                    <span className="ml-2">
-                        <Arrow down={true} />
-                    </span>
-                </button>
-                {openIndex === 2 && <Company />}
+                        <span>Templates</span>
+                    </button>
+                </Link>
+                {/* {openIndex === 2 && <Company />} */}
             </>
             <>
                 <button
@@ -57,7 +55,7 @@ const menuMobile = () => {
                     onClick={() => (openIndex === 3 ? setOpenIndex(false) : setOpenIndex(3))}
                     className={`my-4 rounded shadow-md p-4 lg:text-white inline-flex items-center flex-nowrap text-base leading-6 font-bold hover:text-ocean focus:outline-none focus:text-ocean transition ease-in-out duration-150 
             }`}>
-                    <span>Lorem</span>
+                    <span>More</span>
                     <span className="ml-2">
                         <Arrow down={true} />
                     </span>
