@@ -1,8 +1,9 @@
 import Image from 'next/image';
-import ButtonLink from '../buttons/buttonLink';
-import Video from './video';
+
 // Assets
 import BackgroundTextureDots from '../../../public/background-texture-dots.png';
+import ButtonLink from '../buttons/buttonLink';
+import Video from './video';
 
 const Featured = () => {
     return (
@@ -28,15 +29,15 @@ const Featured = () => {
                     </div>
                     <div className="w-full sm:max-w-[360px] pt-6 sm:pt-12 justify-self-center">
                         <p className="text-shark font-bold  text-3xl sm:text-4xl mb-5">
-                            Getting Started
+                            Build your first botpress bot
                         </p>
                         <p className="mb-5 font-semibold text-[17px]">
-                            Learn how to build a powerful chatbot from scratch with our starterpack
+                            Chapter-wise guide to build your first botpress bot!
                         </p>
                         <div>
                             <ButtonLink
-                                link="https://botpress.com/free-trial"
-                                label="Learn more"
+                                link="/getting-started"
+                                label="Start building"
                                 hollow={false}
                                 transparent={false}
                                 className="font-heading text-white"

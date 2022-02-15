@@ -1,11 +1,12 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import path from 'path';
 import { MDXRemote } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
+import path from 'path';
+
 import Layout from '../src/components/layout';
-import SEO from '../src/components/seo';
 import { MdxComponents } from '../src/components/mdx';
+import SEO from '../src/components/seo';
 
 const Slug = ({ frontMatter, slug, mdxSource }) => {
     return (

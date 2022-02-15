@@ -20,16 +20,6 @@ const Sidebar = ({ sections, classes, customTitle }) => {
                 </div>
                 {sections && <Toc sections={sections} />}
             </div>
-            <div className="mt-6">
-                <ButtonLink
-                    link="https://botpress.com/free-trial"
-                    label="Download Open-Source"
-                    hollow={false}
-                    transparent={false}
-                    className="font-bold text-white z-10 w-full justify-center"
-                    icon="arrow"
-                />
-            </div>
         </div>
     );
 };

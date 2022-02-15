@@ -13,7 +13,7 @@ const contentCompany = () => {
                                         <Link href="/getting-started">
                                             <a className="flex items-center space-x-4 text-base hover:text-ocean transition ease-in-out duration-150">
                                                 <p className="font-bold text-base mb-0">
-                                                    Build your first botpress bot
+                                                    Presentations
                                                 </p>
                                             </a>
                                         </Link>
@@ -21,9 +21,7 @@ const contentCompany = () => {
                                     <div className="hover:bg-blue-50 py-2 px-2 rounded">
                                         <Link href="/webchat-tutorial">
                                             <a className="flex items-center space-x-4 text-base hover:text-ocean transition ease-in-out duration-150">
-                                                <p className="font-bold text-base mb-0">
-                                                    Nuts & bolts of botpress webchat
-                                                </p>
+                                                <p className="font-bold text-base mb-0">Webinars</p>
                                             </a>
                                         </Link>
                                     </div>

@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
+
 import Layout from '../src/components/layout';
-import SEO from '../src/components/seo';
 import Search from '../src/components/search';
+import SEO from '../src/components/seo';
 import Videos from '../src/components/videos';
 
 const Videospage = () => {

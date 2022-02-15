@@ -1,8 +1,9 @@
 import dynamic from 'next/dynamic';
+
+import Hero from '../src/components/hero';
 // Components
 import Layout from '../src/components/layout';
 import SEO from '../src/components/seo';
-import Hero from '../src/components/hero';
 const DynamicWrapper = dynamic(() => import('../src/components/dynamicWrapper'));
 const Grid = dynamic(() => import('../src/components/grid'));
 const FeaturedPreload = dynamic(() => import('../src/components/featured/featuredPreload.js'), {
@@ -18,17 +19,20 @@ const Homepage = () => {
         {
             category: 'Botpress guide',
             title: 'Must have skills',
-            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack'
+            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack',
+            slug: '/skills'
         },
         {
             category: 'Chatbot skills',
             title: 'Must have skills',
-            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack'
+            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack',
+            slug: '/demo-extra-page'
         },
         {
             category: 'NLU',
             title: 'Must have skills',
-            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack'
+            excerpt: 'Learn how to build a powerful chatbot from scratch with our starterpack',
+            slug: '/demo-extra-page'
         }
     ];
     return (

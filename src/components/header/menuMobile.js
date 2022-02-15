@@ -19,7 +19,7 @@ const menuMobile = () => {
                         // onClick={() => (openIndex === 0 ? setOpenIndex(false) : setOpenIndex(0))}
                         className={`my-4 rounded shadow-md lg:text-white p-4 inline-flex items-center flex-nowrap text-base leading-6 font-bold hover:text-ocean focus:outline-none focus:text-ocean transition ease-in-out duration-150 
             }`}>
-                        <span>Getting Started</span>
+                        <span>Build your first botpress bot</span>
                     </button>
                 </Link>
                 {/* {openIndex === 0 && <Company />} */}

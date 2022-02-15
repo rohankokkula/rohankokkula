@@ -1,8 +1,7 @@
-import Content from './content';
-import Img from './img';
 // Assets
 import { Lines1 } from '../icons/lines';
-
+import Content from './content';
+import Img from './img';
 const Hero = () => {
     return (
         <section className="bg-shark pt-12  bp-menu:pt-24 pb-16 relative">

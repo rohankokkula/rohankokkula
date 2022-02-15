@@ -6,7 +6,7 @@ const FeaturedPreload = () => {
             </div>
             <div>
                 <div>
-                    <p>Getting Started</p>
+                    <p>Build your first botpress chatbot</p>
                     <p>Learn how to build a powerful chatbot from scratch with our starterpack</p>
                 </div>
             </div>

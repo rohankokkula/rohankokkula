@@ -1,5 +1,5 @@
-import SearchIcon from '../icons/search';
 import CrossIcon from '../icons/cross';
+import SearchIcon from '../icons/search';
 
 const Input = ({ query, setQuery, type }) => {
     return (

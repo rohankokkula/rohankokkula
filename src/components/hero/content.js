@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 
-const Search = dynamic(() => import('../search'), { ssr: false });
+import ButtonLink from '../buttons/buttonLink';
 
 const Content = () => {
     return (
@@ -9,10 +9,18 @@ const Content = () => {
                 Mastering Botpress, Chatbots, and Conversational AI
             </h1>
             <p className="text-[17px] text-seashell leading-[24px] mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
+                Become a powerful Conversational AI developer with these content pieces.
             </p>
-            <Search />
+            <div className="hidden lg:flex">
+                <ButtonLink
+                    link="/getting-started"
+                    label="Build your first bot"
+                    hollow={false}
+                    transparent={false}
+                    className="font-bold text-white z-10"
+                    icon="arrow"
+                />
+            </div>
         </div>
     );
 };

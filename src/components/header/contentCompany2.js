@@ -13,7 +13,7 @@ const contentCompany = () => {
                                         <Link href="/getting-started">
                                             <a className="flex items-center space-x-4 text-base hover:text-ocean transition ease-in-out duration-150">
                                                 <p className="font-bold text-base mb-0">
-                                                    Build your first botpress bot
+                                                    160 Skills
                                                 </p>
                                             </a>
                                         </Link>
@@ -22,7 +22,7 @@ const contentCompany = () => {
                                         <Link href="/webchat-tutorial">
                                             <a className="flex items-center space-x-4 text-base hover:text-ocean transition ease-in-out duration-150">
                                                 <p className="font-bold text-base mb-0">
-                                                    Nuts & bolts of botpress webchat
+                                                    NLP vs NLU
                                                 </p>
                                             </a>
                                         </Link>
