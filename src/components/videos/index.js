@@ -1,6 +1,6 @@
 import Iframe from './iframe';
 // Hooks
-import useYoutubePlaylist from '../hooks/useYoutubePlaylist';
+import useYoutubePlaylist from '../../hooks/useYoutubePlaylist';
 
 const Videos = ({ playlist }) => {
     const data = useYoutubePlaylist(playlist);
