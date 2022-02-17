@@ -12,6 +12,7 @@
         "algoliasearch": "^4.12.1",
         "axios": "^0.25.0",
         "dotenv": "^16.0.0",
+        "gatsby-cli": "^4.7.0",
         "gray-matter": "^4.0.3",
         "html-to-text": "^8.1.0",
         "jsdom": "^19.0.0",
