@@ -11,7 +11,7 @@ I am always on the lookout for new projects to work on and new people to collabo
 
 <h2> Check out my recent repositories</h2>
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rohankokkula&repo=datasciencefolio&layout=compact&show_icons=true&theme=buefy)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rohankokkula&repo=datasciencefolio&layout=compact&show_icons=true&theme=buefy)](https://github.com/rohankokkula/datasciencefolio)
 <br>
 
 <br>
