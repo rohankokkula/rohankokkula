@@ -6,28 +6,9 @@ I am always on the lookout for new projects to work on and new people to collabo
 <br>
 <br>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rohankokkula)](https://github.com/anuraghazra/github-readme-stats)
 
 
-<h2> Check out my recent repositories</h2>
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rohankokkula&repo=datasciencefolio&layout=compact&show_icons=true&theme=buefy)](https://github.com/rohankokkula/datasciencefolio)
-<br>
-
-<br>
-<a href="https://github.com/rohankokkula/teath">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohankokkula&repo=teath&layout=compact&show_icons=true&theme=buefy" />
-</a>
-<a href="https://github.com/rohankokkula/SA2020">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohankokkula&repo=SA2020&layout=compact&show_icons=true&theme=buefy" />
-</a>
-<a href="https://github.com/rohankokkula/Unsupervised-Learning-Major-Project">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohankokkula&repo=Unsupervised-Learning-Major-Project&layout=compact&show_icons=true&theme=buefy" />
-</a>
-<a href="https://github.com/rohankokkula/Fraudulent-Job-Post-Prediction">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rohankokkula&repo=Fraudulent-Job-Post-Prediction&layout=compact&show_icons=true&theme=buefy" />
-</a>
-<br>
 
 <a href="https://in.linkedin.com/in/rohankokkula" target="_blank">
   <img align="left" alt="Rohan Kokkula | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
